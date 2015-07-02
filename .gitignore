@@ -1,0 +1,9 @@
+bin/app
+*.exe
+*.swp
+*.h~
+*.c~
+*.o
+*.out
+*.obj
+
