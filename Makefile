@@ -8,9 +8,9 @@ BIN_DIR = ./bin/
 
 APP_NAME = app
 
-all: graph.o main.o APP_NAME
+all: graph.o main.o $(APP_NAME)
 
-APP_NAME:
+$(APP_NAME):
 	$(CC) $(CFLAGS) $(OBJ_DIR)*.o -o $(BIN_DIR)$@
 
 main.o: $(SRC_DIR)main.c
